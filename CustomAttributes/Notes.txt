@@ -6,8 +6,6 @@ When developer/programmer creates his own attribute its called Custom Attribute.
 
 
 
-
-
 Built in attributes--- special meaning to the class,method etc.
 Serializable-----
 Non Serializable-----

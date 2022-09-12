@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomAttributes
 {
-    [Developer("name",DeveloperName ="Ankit")]
+    [Developer("Ankit Singh" ,DeveloperName ="Ankit Singh ")]
    public class Products
     {
         [Developer("name", DeveloperName = "Ananth")]

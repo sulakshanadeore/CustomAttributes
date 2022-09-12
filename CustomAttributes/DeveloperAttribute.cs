@@ -12,22 +12,22 @@ namespace CustomAttributes
     {
         // See the attribute guidelines at 
         //  http://go.microsoft.com/fwlink/?LinkId=85236
-        readonly string positionalString;
+        //readonly string positionalString;
 
         // This is a positional argument
-        public DeveloperAttribute(string positionalString)
+        public DeveloperAttribute(string devname)
         {
-            this.positionalString = positionalString;
+            //this.positionalString = positionalString;
 
             // TODO: Implement code here
-
-            throw new NotImplementedException();
+            this.DeveloperName = devname;
+            //throw new NotImplementedException();
         }
 
-        public string PositionalString
-        {
-            get { return positionalString; }
-        }
+        //public string PositionalString
+        //{
+        //    get { return positionalString; }
+        //}
 
         // This is a named argument
         public int NamedInt { get; set; }
