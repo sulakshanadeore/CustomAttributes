@@ -33,5 +33,6 @@ namespace CustomAttributes
         public int NamedInt { get; set; }
         public string DeveloperName { get; set; }
 
+
     }
 }
